@@ -6,7 +6,6 @@ const WordContainer = ({ palindromeWords = [] }) => {
     <div className="content-box">
       <div className="section">
         <h2 className="section-heading">Palindromes</h2>
-
         {palindromeWords.length === 0 ? (
           <p className="no-results">No palindrome words yet.</p>
         ) : (
