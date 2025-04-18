@@ -1,0 +1,47 @@
+.content-box {
+  max-width: 64rem;
+  margin: 1.5rem auto 0 auto;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section-heading {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.no-results {
+  color: #a0aec0;
+}
+
+.palindrome-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.palindrome-item {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.word {
+  font-weight: 600;
+  margin: 0;
+}
+
+.definition {
+  font-size: 0.875rem;
+  color: #718096;
+  margin: 0;
+}

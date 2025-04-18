@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #f7fafc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  color: #ed8936;
+  transform: translateY(-2px);
+}
